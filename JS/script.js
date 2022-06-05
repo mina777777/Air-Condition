@@ -1,3 +1,6 @@
+window.onLoad = function() {
+    alert("hello world");
+    )
 const head= document.getElementById('head');
 window.onscroll = function() {
     if(this.scrollY >= 200) {
