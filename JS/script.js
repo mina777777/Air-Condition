@@ -1,6 +1,3 @@
-window.onLoad = function() {
-    alert("hello world");
-    )
 const head= document.getElementById('head');
 window.onscroll = function() {
     if(this.scrollY >= 200) {
@@ -98,3 +95,19 @@ function hidden(){
     contact.style.cssText = "display: initial;";
 }
 menu2.addEventListener("click",hidden);
+const face = document.getElementById("face");
+const whats = document.getElementById("whats");
+const gmail= document.getElementById("gmail");
+const phone= document.getElementById("phone");
+face.addEventListener("click",function(){
+    window.open("https://www.facebook.com/%D8%AA%D9%83%D9%8A%D9%8A%D9%81-%D9%85%D8%B5%D8%B1-%D9%84%D8%A3%D9%86%D8%B8%D9%85%D9%87-%D8%A7%D9%84%D8%AA%D9%83%D9%8A%D9%8A%D9%81-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%AA%D9%87%D9%88%D9%8A%D8%A9-100298115104397/"," ");
+})
+whats.addEventListener("click",function(){
+    window.open("https://api.whatsapp.com/send?phone=+201225690504"," ");
+})
+phone.addEventListener("click",function(){
+    window.open("tel:+201225690504");
+})
+gmail.addEventListener("click",function(){
+    window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fadyibrahem01@gmail.com"," ");
+})
