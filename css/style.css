@@ -394,6 +394,7 @@ html {
     padding-bottom:20px;
     padding-top:20px;
     position: relative;
+     cursor:pointer;
 }
 .contact .how div:nth-child(6) {
     border:none;
@@ -468,32 +469,6 @@ html {
     height:100%;
 }
 /* end gallary  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* start my Frame work  */
 .hidden {
     display: none;
